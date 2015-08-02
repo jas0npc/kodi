@@ -7,7 +7,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>New and old stuff from me.</summary>
-		<description></description>
+		<description>New and old stuff from me.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
