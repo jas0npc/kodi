@@ -1,0 +1,8 @@
+<settings>
+	<setting id="realdebrid-video" value="" visible="false"	/>
+    <setting id="transform" value="" visible="false"	/>
+	<setting id="meta-data" type="bool" label="Enable Meta Data" default="true"/>
+	<setting id="auto-view" type="bool" label="Enable Automatic View" default="true"/>
+	<setting id="episode-view" type="number" label="Episodes View" default="504" enable="!eq(-4,false)"/>
+	<setting id="default-view" type="number" label="Default View" default="50"/>
+</settings>

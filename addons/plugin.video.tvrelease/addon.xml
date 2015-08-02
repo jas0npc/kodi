@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+    id="plugin.video.tvrelease"   
+    name="TVrelease"
+    version="0.0.6"
+    provider-name="__Jas0npc__">
+   <requires>
+     <import addon="xbmc.python" version="2.1.0"/>
+	 <import addon="script.module.addon.common" version="2.0.0" />
+	 <import addon="script.module.urlresolver" version="2.2.0"/>
+	 <import addon="script.module.metahandler" version="2.6.0" />
+   </requires>
+   <extension point="xbmc.python.pluginsource" library="plugin.py" >
+	 <provides>video</provides>
+   </extension>
+   <extension point="xbmc.python.module" library="lib" />
+   <extension point="xbmc.addon.metadata">
+	 <summary lang="en">Catch Up on HD Tv Shows On Demand From TvRelease.net</summary>
+	 <description lang="en">Catch Up on HD Tv Shows On Demand From TvRelease.net[CR]Use it where you like as LONG AS IT'S NOT Placed on TOTALXBMC or the [CR]TotalInstaller (Hub Addon Installer), Unlike others I DO NOT DO THIS TO TAKE ££££ Of you guys.[CR] Want a Vpn Use PIA (PrivateInternetAcess).</description>
+	 <platform></platform>
+     <language></language>
+	 <license></license>
+	 <forum></forum>
+	 <website></website>
+	 <source></source>
+	 <email></email>
+   </extension>
+</addon>
